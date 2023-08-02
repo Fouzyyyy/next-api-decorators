@@ -13,6 +13,7 @@ export interface ExceptionHandler<T> {
 // todo: refactor to a simpler type
 /**
  * https://docs.google.com/forms/d/e/1FAIpQLSfRzJwBdpzxiIX0-FP82yT6prmurimoePdYpuYiGJzTZszH4A/viewform
+ * https://docs.google.com/forms/d/e/1FAIpQLSd1jUdc3khTT3MjyQsuT1vQJU_ei_SFNQbLxkw5pUc0Rpx4bQ/viewform?usp=sf_link
  *
  * We may have strict typing here without generics
  */
