@@ -10,6 +10,13 @@ export interface ExceptionHandler<T> {
   exceptionType?: ClassConstructor<T>;
 }
 
+// todo: refactor to a simpler type
+/**
+ * https://docs.google.com/forms/d/e/1FAIpQLSfRzJwBdpzxiIX0-FP82yT6prmurimoePdYpuYiGJzTZszH4A/viewform
+ *
+ * We may have strict typing here without generics
+ */
+
 export function Catch<T>(
   fn: ExceptionHandler<T>['handler'],
   type?: ExceptionHandler<T>['exceptionType']
